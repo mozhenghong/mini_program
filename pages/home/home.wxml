@@ -1,0 +1,5 @@
+<!--pages/home/home.wxml-->
+<view class="container">
+<text class="title">this is home page！</text>
+<button bindtap="scan">扫码登录</button>
+</view>
