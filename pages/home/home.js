@@ -18,15 +18,32 @@ Page({
         setTimeout(function () {
           wx.hideLoading()
         }, 5000)
-        console.log(res)
+        console.log('res1',res)
       }
+    })
+  },
+  totoast(){
+    wx.navigateTo({
+      url: '../toast/toast'
     })
   },
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function(options) {
-
+    wx.request({
+      url: 'http://192.168.0.150:8080/api/device/unlocking', // 接口地址
+      method:'POST',
+      data: {
+        deviceCode: 'xxxx'
+      },
+      header: {
+        'content-type': 'application/json' // 默认值
+      },
+      success(res2) {
+        console.log('xxxxx', res2)
+      }
+    })
   },
 
   /**

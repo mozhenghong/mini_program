@@ -8,3 +8,9 @@
   padding: 200rpx 0;
   box-sizing: border-box;
 } 
+button{
+  background: rgb(74, 135, 175);
+  color:#fff;
+  border: none;
+  margin: 20px;
+}

@@ -1,0 +1,25 @@
+/* pages/swiper/swiper.wxss */
+.swiper-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20rpx;
+}
+.swiper{
+  height: 150px;
+  width: 100%;
+  margin: 30rpx;
+}
+.swiper image{
+  width: 100%;
+}
+.modul{
+  display: flex;
+  align-items: center;
+  margin-top: 32rpx;
+}
+.btn{
+  width: 300rpx;
+  font-size: 26rpx;
+}

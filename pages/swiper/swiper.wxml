@@ -1,0 +1,18 @@
+<!--pages/swiper/swiper.wxml-->
+<view class="swiper-container">
+  <swiper class="swiper" indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" indicator-dots="true" circular="true">
+    <block wx:for="{{imgUrls}}">
+      <swiper-item>
+        <image src="{{item}}" class="slide-image"/>
+      </swiper-item>
+    </block>
+  </swiper>
+  <view wx:for="{{modul}}" class="modul">
+    <button open-type="contact" class="btn">进入客服会话</button>
+    <p class="content">{{item.content}}</p>
+  </view>
+  <view class="modul">
+    <button class="btn" bindtap="call">拨打客服电话</button>
+    <p class="content">哈哈哈哈哈啊哈哈拨打电话博大袋女花和内地为奇偶和玩家哦亲坡片区二级</p>
+  </view>
+</view>

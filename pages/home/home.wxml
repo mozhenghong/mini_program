@@ -2,4 +2,5 @@
 <view class="container">
 <text class="title">this is home page！</text>
 <button bindtap="scan">扫码登录</button>
+<button bindtap="totoast">去弹窗页</button>
 </view>

@@ -1,0 +1,7 @@
+<!--pages/toast/toast.wxml-->
+<view class="container">
+  <text>this is toast page</text>
+  <button bindtap="toast">显示弹窗</button>
+  <button bindtap='modal'>静态弹窗</button>
+  <button bindtap="sheet">操作菜单</button>
+</view>

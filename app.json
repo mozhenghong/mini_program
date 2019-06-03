@@ -2,13 +2,31 @@
   "pages": [
     "pages/home/home",
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "pages/toast/toast",
+    "pages/swiper/swiper"
   ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "扫码开锁",
     "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "selectedColor":"#00f",
+    "color": "#000",
+    "backgroundColor":"#ddd",
+    "list": [{
+      "pagePath": "pages/home/home",
+      "text": "首页",
+      "iconPath": "imgs/home.png",
+      "selectedIconPath": "imgs/home2.png"
+    },{
+      "pagePath": "pages/index/index",
+      "text": "登录页",
+      "iconPath": "imgs/contact.png",
+      "selectedIconPath": "imgs/contact2.png"
+    }]
   },
   "sitemapLocation": "sitemap.json"
 }
